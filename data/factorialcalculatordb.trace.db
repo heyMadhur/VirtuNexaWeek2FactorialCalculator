@@ -1,0 +1,11 @@
+2025-02-24 10:52:27.556591+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "conversion_date" not found [42122-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3492)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at com.virtunexa.Database.DatabaseManager.showConversionHistory(DatabaseManager.java:60)
+	at com.virtunexa.CLIFrontend.start(CLIFrontend.java:40)
+	at com.virtunexa.Main.main(Main.java:10)
