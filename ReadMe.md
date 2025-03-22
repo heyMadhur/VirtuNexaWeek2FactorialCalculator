@@ -108,6 +108,3 @@ Exiting...
 - **Data Storage:**  
   All calculation records are saved in an H2 database file located in the `./data` directory within the project folder. This file is automatically created when the application runs.
 
-## Final Thoughts
-
-This application is both a useful utility and a demonstration of how to combine core Java programming with persistent data storage. It showcases how to implement both iterative and recursive algorithms in a clean, user-friendly manner. If you have any questions or feedback, please feel free to reach out.
